@@ -1,0 +1,187 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds226_20165_2016_zcta'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2012-2016
+Geographic level: 5-Digit ZIP Code Tabulation Area
+Dataset:          2016 American Community Survey: 5-Year Data [2012-2016, Tracts & Larger Areas]
+   NHGIS code:    2012_2016_ACS5b
+   NHGIS ID:      ds226
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Median Earnings in the Past 12 Months (in 2016 Inflation-Adjusted Dollars) by Sex by Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over with earnings
+   Source code: B20004
+   NHGIS code:  AGM6
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATEA:      State Code
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2017-2019, 115th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Median Earnings in the Past 12 Months (in 2016 Inflation-Adjusted Dollars) by Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over with earnings
+    Source code: B20004
+    NHGIS code:  AGM6
+        AGM6E001:    Total
+        AGM6E002:    Less than high school graduate
+        AGM6E003:    High school graduate (includes equivalency)
+        AGM6E004:    Some college or associate's degree
+        AGM6E005:    Bachelor's degree
+        AGM6E006:    Graduate or professional degree
+        AGM6E007:    Male
+        AGM6E008:    Male: Less than high school graduate
+        AGM6E009:    Male: High school graduate (includes equivalency)
+        AGM6E010:    Male: Some college or associate's degree
+        AGM6E011:    Male: Bachelor's degree
+        AGM6E012:    Male: Graduate or professional degree
+        AGM6E013:    Female
+        AGM6E014:    Female: Less than high school graduate
+        AGM6E015:    Female: High school graduate (includes equivalency)
+        AGM6E016:    Female: Some college or associate's degree
+        AGM6E017:    Female: Bachelor's degree
+        AGM6E018:    Female: Graduate or professional degree
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Median Earnings in the Past 12 Months (in 2016 Inflation-Adjusted Dollars) by Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over with earnings
+    Source code: B20004
+    NHGIS code:  AGM6
+        AGM6M001:    Total
+        AGM6M002:    Less than high school graduate
+        AGM6M003:    High school graduate (includes equivalency)
+        AGM6M004:    Some college or associate's degree
+        AGM6M005:    Bachelor's degree
+        AGM6M006:    Graduate or professional degree
+        AGM6M007:    Male
+        AGM6M008:    Male: Less than high school graduate
+        AGM6M009:    Male: High school graduate (includes equivalency)
+        AGM6M010:    Male: Some college or associate's degree
+        AGM6M011:    Male: Bachelor's degree
+        AGM6M012:    Male: Graduate or professional degree
+        AGM6M013:    Female
+        AGM6M014:    Female: Less than high school graduate
+        AGM6M015:    Female: High school graduate (includes equivalency)
+        AGM6M016:    Female: Some college or associate's degree
+        AGM6M017:    Female: Bachelor's degree
+        AGM6M018:    Female: Graduate or professional degree
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 12.0 
+        [Database]. Minneapolis: University of Minnesota. 2017. 
+        http://doi.org/10.18128/D050.V12.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
